@@ -20,6 +20,10 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
+    background-color: #fff;
+    border-radius: 10px;
+    drop-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 div {
