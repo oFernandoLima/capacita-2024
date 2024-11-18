@@ -17,10 +17,10 @@
                 <ul class="flex space-x-4 text-lg items-center">
                     <li><a href="index.html" class="hover:text-purple-500 transition duration-150 ease-in-out">Introdução</a></li>
                     <li><a href="index.html#experiencia" class="hover:text-purple-500 transition duration-150 ease-in-out">Experiência</a></li>
-                    <li><a href="index.html#interesses" class="hover:text-purple-500 transition duration-150 ease-in-out">Interesses</a></li>
-                    <li><a href="index.html#tecnologias" class="hover:text-purple-500 transition duration-150 ease-in-out">Tecnologias</a></li>
                     <li><a href="index.html#projetos" class="hover:text-purple-500 transition duration-150 ease-in-out">Projetos</a></li>
-                    <li><a href="depoimentos.html" class="hover:text-purple-500 transition duration-150 ease-in-out">Depoimentos</a></li>
+                    <li><a href="index.html#depoimentos" class="hover:text-purple-500 transition duration-150 ease-in-out">Depoimentos</a></li>
+                    <li><a href="tecnologias.html" class="hover:text-purple-500 transition duration-150 ease-in-out">Tecnologias</a></li>
+                    <li><a href="galeria.html" class="hover:text-purple-500 transition duration-150 ease-in-out">Galeria</a></li>
                     <li><a href="contato.html" class="hover:text-purple-500 transition duration-150 ease-in-out">Contato</a></li>
                     <li><a href="https://wa.me/5599999999999" target="_blank" class="flex items-center gap-2 bg-purple-500 rounded-full px-3 py-2 text-white hover:opacity-90 transition duration-150 ease-in-out"><span>Fale comigo agora!</span> <img src="./assets/whatsapp.png" alt="WhatsApp" class="w-8 h-8"></a></li>
                 </ul>
@@ -29,10 +29,10 @@
     </header>
         
     <!-- Main Content -->
-    <main class="container mx-auto mt-8 px-6">
+    <main class="mx-auto">
 
         <!-- Introdução -->
-        <section id="introducao" class="text-center flex items-center justify-around py-12">
+        <section id="introducao" class="text-center flex items-center justify-between p-80 py-24">
             <!-- Sobre Mim -->
             <div id="info" class="flex flex-col items-start w-1/3">
                 <h1 class="text-4xl font-bold text-gray-800">Fernando Lima</h1>
@@ -48,149 +48,155 @@
             <img src="./assets/perfil.jpg" alt="Foto de perfil" class="mt-6 rounded-full w-96 h-96 object-cover">
         </section>
 
-        <!-- Experiência -->
-        <section id="experiencia" class="bg-white p-8 rounded-lg shadow-md mt-8">
-            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Experiência</h2>
-            <div class="space-y-6">
-                <div>
-                    <h4 class="text-lg font-bold text-gray-800">Bolsista PIBITI</h4>
-                    <p class="text-gray-600">Desenvolvimento de uma ferramenta de análise de qualidade em microsserviços, utilizando métricas e técnicas de análise estática.</p>
+        <div class="bg-white shadow-md px-80 py-12">
+            <!-- Experiência -->
+            <section id="experiencia" class="py-8 mt-4">
+                <h2 class="text-2xl font-semibold text-purple-500 mb-4">Experiência</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-800">Bolsista PIBITI</h4>
+                        <p class="text-gray-600">Desenvolvimento de uma ferramenta de análise de qualidade em microsserviços, utilizando métricas e técnicas de análise estática.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-800">Bolsista em Empreendedorismo</h4>
+                        <p class="text-gray-600">Desenvolvimento de plataforma digital inclusiva para deficientes auditivos, promovendo acesso a serviços e autonomia.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-800">Bolsista em Desenvolvimento Backend (BIA)</h4>
+                        <p class="text-gray-600">Desenvolvimento backend para um aplicativo de apicultores com metodologia ágil e uso de Node.js.</p>
+                    </div>
+                    
                 </div>
-                <div>
-                    <h4 class="text-lg font-bold text-gray-800">Bolsista em Empreendedorismo</h4>
-                    <p class="text-gray-600">Desenvolvimento de plataforma digital inclusiva para deficientes auditivos, promovendo acesso a serviços e autonomia.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold text-gray-800">Bolsista em Desenvolvimento Backend (BIA)</h4>
-                    <p class="text-gray-600">Desenvolvimento backend para um aplicativo de apicultores com metodologia ágil e uso de Node.js.</p>
-                </div>
-                
-            </div>
-        </section>
+            </section>
 
-        <!-- Interesses -->
-        <section id="interesses" class="bg-white p-8 rounded-lg shadow-md mt-8">
-            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Interesses</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">Desenvolvimento Web</h4>
-                    <p class="text-gray-600">Desenvolvimento web é a prática de criar aplicativos e sites na web. Envolve a criação de interfaces de usuário, a implementação de funcionalidades e a integração com serviços e APIs.</p>
-                </div>
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">Engenharia de Software</h4>
-                    <p class="text-gray-600">Engenharia de software é a aplicação de princípios de engenharia para o desenvolvimento de software. Envolve a análise de problemas, o design de soluções e a implementação de sistemas de software.</p>
-                </div>
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">Microsserviços</h4>
-                    <p class="text-gray-600">Os microsserviços são uma abordagem de arquitetura de software que consiste em dividir uma aplicação em um conjunto de serviços pequenos e independentes, que se comunicam entre si para realizar uma tarefa.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tecnologias -->
-        <section id="tecnologias" class="bg-white p-8 rounded-lg shadow-md mt-8">
-            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Tecnologias</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- HTML -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">HTML</h4>
-                    <p class="text-gray-600 mb-3">React é uma biblioteca JavaScript de código aberto para criar interfaces de usuário. É mantida pelo Facebook e por uma comunidade de desenvolvedores individuais e empresas.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 85%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 85%;"></div>
-                        </div>
+            <!-- Interesses -->
+            <section id="interesses" class="py-8 mt-4">
+                <h2 class="text-2xl font-semibold text-purple-500 mb-4">Interesses</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow">
+                        <h4 class="text-lg font-bold text-gray-800">Desenvolvimento Web</h4>
+                        <p class="text-gray-600">Desenvolvimento web é a prática de criar aplicativos e sites na web. Envolve a criação de interfaces de usuário, a implementação de funcionalidades e a integração com serviços e APIs.</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg shadow">
+                        <h4 class="text-lg font-bold text-gray-800">Engenharia de Software</h4>
+                        <p class="text-gray-600">Engenharia de software é a aplicação de princípios de engenharia para o desenvolvimento de software. Envolve a análise de problemas, o design de soluções e a implementação de sistemas de software.</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg shadow">
+                        <h4 class="text-lg font-bold text-gray-800">Microsserviços</h4>
+                        <p class="text-gray-600">Os microsserviços são uma abordagem de arquitetura de software que consiste em dividir uma aplicação em um conjunto de serviços pequenos e independentes, que se comunicam entre si para realizar uma tarefa.</p>
                     </div>
                 </div>
-
-                <!-- CSS -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">CSS</h4>
-                    <p class="text-gray-600 mb-3">Node.js é um ambiente de execução JavaScript server-side. Seu objetivo é ajudar programadores na criação de aplicações de alta escalabilidade (como um servidor web) manipulando eventos de forma assíncrona.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 75%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TypeScript -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">TypeScript</h4>
-                    <p class="text-gray-600 mb-3">Spring Boot é uma ferramenta que simplifica a configuração e execução de aplicações Java, facilitando o desenvolvimento e reduzindo a complexidade de configuração.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 90%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- React -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">React</h4>
-                    <p class="text-gray-600 mb-3">React é uma biblioteca JavaScript de código aberto para criar interfaces de usuário. É mantida pelo Facebook e por uma comunidade de desenvolvedores individuais e empresas.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 85%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Node.js -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">Node.js</h4>
-                    <p class="text-gray-600 mb-3">Node.js é um ambiente de execução JavaScript server-side. Seu objetivo é ajudar programadores na criação de aplicações de alta escalabilidade (como um servidor web) manipulando eventos de forma assíncrona.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 75%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Java Spring Boot -->
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
-                    <h4 class="text-lg font-bold text-gray-800">Java Spring Boot</h4>
-                    <p class="text-gray-600 mb-3">Spring Boot é uma ferramenta que simplifica a configuração e execução de aplicações Java, facilitando o desenvolvimento e reduzindo a complexidade de configuração.</p>
-                    <div class="mt-4">
-                        <p class="text-sm text-gray-500">Conhecimento: 90%</p>
-                        <div class="w-full bg-gray-300 rounded-full h-4">
-                            <div class="bg-purple-500 h-4 rounded-full" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
 
         <!-- Projetos -->
-        <section id="projetos" class="bg-white p-8 rounded-lg shadow-md mt-8">
-            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Projetos</h2>
+        <section id="projetos" class="text-center px-80 py-20">
+            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Meus Projetos</h2>
+            <p class="mb-12">Aqui estão alguns projetos de design anteriores nos quais trabalhei.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                <div class="bg-white flex flex-col items-center gap-2 px-4 py-8 rounded-lg shadow">
                     <h4 class="text-lg font-bold text-gray-800">SysAdoção</h4>
                     <p class="text-gray-600">Sistema para adoção de animais, realizado através do Bootcamp em Desenvolvimento FullStack, promovido pelo Atlântico Avanti.</p>
                     <img src="./assets/projeto.png" class="" alt="">
+                    <h6><a href="https://github.com/SysAdocao/sysadocao-frontend" target="_blank" class="font-bold hover:text-purple-500">Link do repositório &#8599;</a></h6>
                 </div>
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                <div class="bg-white flex flex-col items-center gap-2 px-4 py-8 rounded-lg shadow">
                     <h4 class="text-lg font-bold text-gray-800">ConnectDeaf</h4>
                     <p class="text-gray-600">Plataforma web com o objetivo de conectar pessoas surdas a profissionais de diversas áreas capacitados a atendê-las de forma assistiva.</p>
                     <img src="./assets/projeto.png" class="" alt="">
+                    <h6><a href="https://github.com/ExodiaTeam/connectdeaf-front-end" target="_blank" class="font-bold hover:text-purple-500">Link do repositório &#8599;</a></h6>
                 </div>
-                <div class="bg-gray-100 p-4 rounded-lg shadow">
+                <div class="bg-white flex flex-col items-center gap-2 px-4 py-8 rounded-lg shadow">
                     <h4 class="text-lg font-bold text-gray-800">Pizza Shop</h4>
                     <p class="text-gray-600">Site para gerenciamento de uma pizzaria, desenvolvido através da trilha front end do curso ignite, promovido pela Rocketseat.</p>
                     <img src="./assets/projeto.png" class="" alt="">
+                    <h6><a href="https://github.com/oFernandoLima/pizzashop-web" target="_blank" class="font-bold hover:text-purple-500">Link do repositório &#8599;</a></h6>
                 </div>
             </div>
         </section>
 
         <!-- Contato -->
-        <section id="contato" class="bg-white p-8 rounded-lg shadow-md mt-8 text-center">
-            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Contato</h2>
+        <section id="contato" class="pb-32 text-center border-b-2">
+            <h2 class="text-2xl font-semibold text-purple-500 mb-4">Interessado em trabalhar comigo?</h2>
             <p class="text-gray-600">Para discutir uma possível colaboração, <a href="contato.html" class="text-purple-500 hover:underline">clique aqui para me contatar</a>.</p>
+        </section>
+
+        <!-- Depoimentos -->
+        <section id="depoimentos" class="px-80 py-32">
+            <h2 class="text-2xl font-semibold text-purple-500 mb-4 text-center">Depoimentos</h2>
+            <p class="text-gray-600 text-center mb-12">Pessoas com quem trabalhei disseram algumas coisas boas...</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 1" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Ana Silva</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Fernando fez um excelente trabalho no desenvolvimento do nosso site. Ele sempre foi muito atencioso e profissional."</p>
+                </div>
+                
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 2" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Bruno Pereira</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Gostei muito da forma como Fernando conduz os projetos. Ele trouxe ideias inovadoras que agregaram bastante ao nosso produto."</p>
+                </div>
+                
+                <!-- Depoimento 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 3" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Carla Santos</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Excelente profissional! A entrega foi rápida e o resultado final superou nossas expectativas."</p>
+                </div>
+                <!-- Depoimento 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 1" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Ana Silva</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Fernando fez um excelente trabalho no desenvolvimento do nosso site. Ele sempre foi muito atencioso e profissional."</p>
+                </div>
+                
+                <!-- Depoimento 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 2" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Bruno Pereira</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Gostei muito da forma como Fernando conduz os projetos. Ele trouxe ideias inovadoras que agregaram bastante ao nosso produto."</p>
+                </div>
+                
+                <!-- Depoimento 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="https://github.com/maykbrito.png" alt="Foto de Cliente 3" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">Carla Santos</h4>
+                            <p class="text-gray-500 text-sm">Cliente</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Excelente profissional! A entrega foi rápida e o resultado final superou nossas expectativas."</p>
+                </div>
+            </div>
         </section>
     </main>
 

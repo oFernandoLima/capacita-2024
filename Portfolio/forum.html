@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando Lima | Fórum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+      <div
+        class="container mx-auto flex justify-between items-center py-4 px-24"
+      >
+        <div id="logo-fl" class="text-3xl font-bold text-purple-500">
+          <a href="index.html">&lt/FL&gt</a>
+        </div>
+        <nav>
+          <ul class="flex space-x-4 text-lg items-center">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Introdução</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#experiencia"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Experiência</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#projetos"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Projetos</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#depoimentos"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Depoimentos</a
+              >
+            </li>
+            <li>
+              <a
+                href="tecnologias.html"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Tecnologias</a
+              >
+            </li>
+            <li>
+              <a
+                href="galeria.html"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Galeria</a
+              >
+            </li>
+            <li>
+              <a
+                href="contato.html"
+                class="hover:text-purple-500 transition duration-150 ease-in-out"
+                >Contato</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://wa.me/5599999999999"
+                target="_blank"
+                class="flex items-center gap-2 bg-purple-500 rounded-full px-3 py-2 text-white hover:opacity-90 transition duration-150 ease-in-out"
+                ><span>Fale comigo agora!</span>
+                <img src="./assets/whatsapp.png" alt="WhatsApp" class="w-8 h-8"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto my-8 px-6">
+      <h2 class="text-3xl font-bold text-purple-500 mb-8 text-center">
+        Fórum de Tecnologias
+      </h2>
+
+      <!-- Fórum Section -->
+      <section
+        id="forum"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <!-- HTML -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">HTML</h3>
+          <p class="text-gray-600 mb-4">
+            Dica: Utilize semântica correta no HTML para melhorar a
+            acessibilidade e o SEO das suas páginas. Por exemplo:
+          </p>
+          <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+          >
+    &lt;article&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Título do Artigo&lt;/h1&gt;
+        &lt;p&gt;Publicado em 2024-11-18&lt;/p&gt;
+    &lt;/header&gt;
+    &lt;p&gt;Conteúdo do artigo aqui.&lt;/p&gt;
+    &lt;/article&gt;
+                </pre
+          >
+            <a href="https://www.w3schools.com/html/" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+
+        <!-- CSS -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">CSS</h3>
+          <p class="text-gray-600 mb-4">
+            Dica: Use variáveis CSS para manter consistência e facilitar
+            manutenção. Exemplo:
+          </p>
+          <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+          >
+    :root {
+    --primary-color: #6B46C1;
+    --secondary-color: #F7FAFC;
+    }
+    body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    }
+                </pre
+          >
+          <a href="https://www.w3schools.com/css/" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+
+        <!-- TypeScript -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">TypeScript</h3>
+          <p class="text-gray-600 mb-4">
+            Dica: Utilize interfaces para definir contratos de objetos e evitar
+            erros em tempo de execução. Exemplo:
+          </p>
+          <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+          >
+    interface User {
+    id: number;
+    name: string;
+    email: string;
+    }
+
+    const newUser: User = {
+    id: 1,
+    name: "Fernando Lima",
+    email: "fernando@example.com",
+    };
+                </pre
+          >
+          <a href="https://www.typescriptlang.org/" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+
+        <!-- React -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">React</h3>
+          <p class="text-gray-600 mb-4">
+            Dica: Use hooks como <code>useState</code> e
+            <code>useEffect</code> para gerenciar estado e efeitos colaterais.
+            Exemplo:
+          </p>
+          <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+          >
+    import React, { useState, useEffect } from "react";
+
+    const Counter = () => {
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        console.log("O contador mudou:", count);
+    }, [count]);
+
+    return (
+        &lt;div&gt;
+        &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Incrementar&lt;/button&gt;
+        &lt;p&gt;Contador: {count}&lt;/p&gt;
+        &lt;/div&gt;
+    );
+    };
+                </pre
+          >
+          <a href="https://react.dev/" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+        
+        <!-- Node.js -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <h3 class="text-lg font-bold text-gray-800 mb-4">Node.js</h3>
+            <p class="text-gray-600 mb-4">
+                Dica: Use <code>async/await</code> para lidar com operações
+                assíncronas de maneira mais limpa. Exemplo:
+            </p>
+            <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+            >
+            const fetchData = async () => {
+                try {
+                    const response = await fetch("https://api.example.com/data");
+                    const data = await response.json();
+                    console.log(data);
+                } catch (error) {
+                    console.error("Erro ao buscar dados:", error);
+                }
+            };
+            
+            fetchData();
+            </pre
+            >
+            <a href="https://nodejs.org/pt" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+
+        <!-- Java Spring Boot -->
+        <div class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+          <h3 class="text-lg font-bold text-gray-800 mb-4">Java Spring Boot</h3>
+          <p class="text-gray-600 mb-4">
+            Dica: Use anotações como <code>@RestController</code> e
+            <code>@RequestMapping</code> para criar APIs REST de forma simples.
+            Exemplo:
+          </p>
+          <pre
+            class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto mb-4"
+          >
+    @RestController
+    @RequestMapping("/api/users")
+    public class UserController {
+    
+    @GetMapping("/{id}")
+    public ResponseEntity&lt;User&gt; getUserById(@PathVariable Long id) {
+        User user = userService.findById(id);
+        return ResponseEntity.ok(user);
+    }
+    }
+                </pre
+          >
+          <a href="https://spring.io/projects/spring-boot" target="_blank" class="font-bold hover:text-purple-500"><p>Documentação da tecnologia &#8599;</p></a>
+        </div>
+      </section>
+      <!-- Formulário -->
+      <section id="comentarios" class="py-8">
+        <h3 class="text-2xl font-semibold text-purple-500 mb-4">
+          Compartilhe Suas Dicas
+        </h3>
+        <form
+          action="#"
+          method="POST"
+          class="bg-white p-6 rounded-lg shadow transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none-md"
+        >
+          <div class="mb-4">
+            <label for="nome" class="block text-gray-700 font-medium mb-2"
+              >Seu Nome</label
+            >
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="nome" class="block text-gray-700 font-medium mb-2"
+              >Tecnologia</label
+            >
+            <input
+              type="text"
+              id="tecnologia"
+              name="tecnologia"
+              placeholder="Digite a tecnologia"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="comentario" class="block text-gray-700 font-medium mb-2"
+              >Dica ou Comentário</label
+            >
+            <textarea
+              id="comentario"
+              name="comentario"
+              rows="5"
+              placeholder="Compartilhe sua dica"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-purple-500 text-white py-2 px-4 rounded-lg hover:bg-purple-600 transition duration-150"
+          >
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 text-center py-4">
+      <p>&copy; 2024 Fernando Lima. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
